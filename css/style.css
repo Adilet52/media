@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+#navbar {
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-nav a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 0 15px;
+}
+
+.navbar-nav select {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 0 15px;
+    background: transparent;
+    border: none;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar div img {
+    padding: 0 10px;
+}
+
+.hero-block h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1F2E35;
+    margin-bottom: 40px;
+
+}
+
+.hero-block h1 span  {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: red;
+}
+
+.hero-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #30444E;
+    margin-bottom: 50px;
+}
+
+.hero-block button {
+    width: 161px;
+    height: 53px;
+    font-weight: 400;
+    font-size: 20px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    transition: .4s;
+    color: white;
+    border: none;
+}
+
+.hero-block button:hover {
+    transform: scale(1.1);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.about-block h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1F2E35;
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+
+.about-block h1 span {
+    color: red;
+}
+
+.about-block {
+    width: 550px;
+}
+
+.about-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+    margin-bottom: 20px;
+}
+
+#product {
+    padding-top: 100px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-tittle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #1F2E35;
+    padding-bottom: 50px;
+}
+
+.product-block {
+    width: 320px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.product-block h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+}
+
+.product-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+}
+
+.product-block button {
+    width: 119px;
+    height: 42px;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    transition: .4s;
+}
+
+.product-block button:hover {
+    transform: scale(1.1);
+}
+
+.contact {
+    display: flex;
+    width: 700px;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact div h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #263238;
+    padding-bottom: 10px;
+}
+
+.contact div p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #263238;
+    line-height: 25px;
+}
+
+.contact div a {
+    font-style: normal;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 10px;
+    color: #263238;
+}
+
+#footer {
+    padding: 15px 0;
+    background: red;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.footer h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
